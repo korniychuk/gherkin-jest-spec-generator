@@ -21,7 +21,6 @@ describe(FileSystem.name, () => {
     rimraf.sync(TMP_DIR);
   });
 
-
   describe('.isReadable()', () => {
     const filePath = path.join(TMP_DIR, 'scenario.txt');
 
@@ -56,4 +55,18 @@ describe(FileSystem.name, () => {
       expect(res).toBe(true);
     });
   });
+
+  describe('.isWritable()', () => {
+    const filePath = path.join(TMP_DIR, 'scenario.txt');
+
+    it('Should return false for an nonexistent file in the unwritable directory', () => {
+      // act
+      const res = service.isReadable(filePath);
+
+      // assert
+      expect(res).toBe(false);
+    });
+
+  });
+
 });
