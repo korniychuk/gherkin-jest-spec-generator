@@ -1,6 +1,6 @@
 import yargs from 'yargs';
 
-import { Config } from './models';
+import { Config } from '../models/index';
 
 export class ConfigService implements Config {
   public inputFilePath: string = '';

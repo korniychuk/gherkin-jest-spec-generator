@@ -1,9 +1,9 @@
-import { App } from './app';
+import { AppService } from './app.service';
 
-class AppDebug extends App {
+class AppDebug extends AppService {
 }
 
-describe(App.name, () => {
+describe(AppService.name, () => {
   let service: AppDebug;
 
   beforeEach(() => {

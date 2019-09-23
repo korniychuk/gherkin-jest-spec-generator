@@ -1,3 +1,3 @@
-import { App } from './app';
+import { AppService } from './services/appService';
 
-const app = new App();
+const app = new AppService();
