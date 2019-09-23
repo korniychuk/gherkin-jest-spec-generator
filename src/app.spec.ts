@@ -10,4 +10,7 @@ describe(App.name, () => {
     service = new AppDebug();
   });
 
+  it('Should', () => {
+    expect(0).toBe(0);
+  });
 });
