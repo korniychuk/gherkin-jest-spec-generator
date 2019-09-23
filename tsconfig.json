@@ -12,7 +12,7 @@
     "importHelpers": true,
     "strictNullChecks": false,
     "lib": [
-      "es2016"
+      "es2019"
     ],
     "baseUrl": "./src",
     "typeRoots": [

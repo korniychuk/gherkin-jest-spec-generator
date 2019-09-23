@@ -28,6 +28,7 @@
     "@babel/preset-env": "~7.6.0",
     "@babel/preset-typescript": "~7.6.0",
     "typescript": "~3.6.3",
+    "tslib": "~1.10.0",
     "jest": "~24.9.0",
     "rimraf": "~3.0.0"
   }

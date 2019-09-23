@@ -12,6 +12,7 @@ describe(ConfigService.name, () => {
       expect(service.inputFilePath).toBe('');
       expect(service.outputFilePath).toBe('');
       expect(service.insertAAA).toBe(true);
+      expect(service.indentation).toBe('  ');
     });
   });
 

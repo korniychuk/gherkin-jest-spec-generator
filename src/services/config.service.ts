@@ -6,6 +6,7 @@ export class ConfigService implements Config {
   public inputFilePath: string = '';
   public outputFilePath: string = '';
   public insertAAA: boolean = true;
+  public indentation: string = '  ';
 
   public init(): void {
     const res = yargs(process.argv)
